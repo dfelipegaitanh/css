@@ -1,0 +1,31 @@
+* {
+    font-family:"Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+h1#assignment-instructions{
+    color: darkorange;
+    font-family: 'Anton', sans-serif;
+}
+
+code {
+    font-family: Courier, "Lucida Console", monospace;
+    color: red;
+}
+
+.li-code > code {
+    color: green;
+}
+
+ol li {
+    background: greenyellow;
+    color: blue;
+}
+
+li + li {
+    background: green;
+    color: darkblue;
+}
+
+
+
+

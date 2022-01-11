@@ -1,0 +1,31 @@
+body {
+    font-family:'Monserrat',sans-serif;
+}
+
+#product-overview {
+    background: red;
+}
+
+.section-title{
+    color: green;
+    font-family: inherit;
+}
+
+#product-overview  h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+/* Adjacent Siblings */
+h2 + p {
+    color: #370dc9;
+}
+/* General Siblings */
+
+#general-Siblings h2 ~ p {
+    color: #811562;
+}
+
+#child div > p {
+    color: firebrick;
+}
