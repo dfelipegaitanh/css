@@ -13,7 +13,7 @@ code {
 }
 
 .li-code > code {
-    color: green;
+    color: purple;
 }
 
 ol li {
@@ -22,7 +22,7 @@ ol li {
 }
 
 li + li {
-    background: green;
+    background: cornflowerblue;
     color: darkblue;
 }
 
