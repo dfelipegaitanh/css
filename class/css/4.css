@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    margin-bottom: 16px;
+    background: #fa923f;
+    padding: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.main-section {
+    height: 800px;
+    border: 1px solid #b4b4b4;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.highlighted {
+    border: 2px solid #fa923f;
+}
+
+a.active {
+    color: #521751;
+}
+
+a:not(.active) {
+    /*color: #2c9191;*/
+    /*display:none;*/
+}
+a {
+    color: #2c9191;
+}
+
+.fancy {
+    text-shadow: 2px 2px 3px gold;
+}
+
+/* elementos <p> que no están en la clase `.fancy` */
+p:not(.fancy) {
+    color: green;
+}
+
+/* Elementos que no son elementos <p> */
+#intro :not(p) {
+    text-decoration: underline;
+}
+
+/* Elementos que no son elementos <div> o <span> */
+body :not(div):not(span) {
+    font-weight: bold;
+}
+
+/* Elementos que no son `.crazy` o `.fancy` */
+/* Tenga en cuenta que esta sintaxis aún no está bien soportada. */
+body :not(.crazy, .fancy) {
+    font-family: sans-serif;
+}
+
+#intro{
+
+}
+
+#outro {
+    /*display: none;*/
+}
